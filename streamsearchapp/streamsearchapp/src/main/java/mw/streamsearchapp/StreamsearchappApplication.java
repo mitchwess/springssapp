@@ -1,0 +1,21 @@
+package mw.streamsearchapp;
+
+import mw.streamsearchapp.Service.netflixService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.util.Arrays;
+import java.util.List;
+
+@SpringBootApplication
+public class StreamsearchappApplication {
+
+	public static void main(String[] args) {
+
+		SpringApplication.run(StreamsearchappApplication.class, args);
+
+	}
+}
