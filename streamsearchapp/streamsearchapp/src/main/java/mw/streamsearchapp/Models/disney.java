@@ -1,6 +1,5 @@
 package mw.streamsearchapp.Models;
 import lombok.Data;
-
 import javax.persistence.*;
 
 @Data

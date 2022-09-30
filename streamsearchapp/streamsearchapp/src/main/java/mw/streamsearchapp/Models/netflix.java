@@ -34,21 +34,4 @@ public class netflix {
     @Column(name="show_description")
     private String show_description;
 
-    public netflix(String show_id, String show_type, String title,
-                   String director, String show_cast, String country,
-                   String date_added, Integer release_year, String rating,
-                   String duration, String listed_in, String show_description) {
-        this.show_id = show_id;
-        this.show_type = show_type;
-        this.title = title;
-        this.director = director;
-        this.show_cast = show_cast;
-        this.country = country;
-        this.date_added = date_added;
-        this.release_year = release_year;
-        this.rating = rating;
-        this.duration = duration;
-        this.listed_in = listed_in;
-        this.show_description = show_description;
-    }
 }
